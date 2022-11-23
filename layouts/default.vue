@@ -53,13 +53,13 @@ export default {
       items: [
         {
           icon: "mdi-home",
-          title: "Главная",
+          title: "Список",
           to: "/",
         },
         {
           icon: "mdi-newspaper-variant",
-          title: "Формы",
-          to: "/newspage",
+          title: "Добавление",
+          to: "/addform",
         },
       ],
       right: true,

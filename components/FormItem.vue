@@ -10,7 +10,7 @@
           <p class="newsItem__shorttext">
             {{ formData.email }}
           </p>
-          <p>{{ formData.country }} {{formData.years}}</p>
+          <p>Страна: {{ formData.country }}, Возраст: {{formData.years}}</p>
         </div>
       </v-card>
   </v-hover>
